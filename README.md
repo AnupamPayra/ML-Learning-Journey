@@ -1,4 +1,4 @@
-# 🤖 ML Learning Journey
+# ML Learning Journey
 
 A hands-on repository documenting my Machine Learning foundation—progressing from raw data exploration and feature engineering to supervised model training and evaluation on real-world datasets.
 

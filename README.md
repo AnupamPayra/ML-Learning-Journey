@@ -1,43 +1,31 @@
-#  ML Learning Journey
+# 🤖 ML Learning Journey
 
-A hands-on repository documenting my core Machine Learning foundation—moving directly from mathematical theory to practical implementation on real-world datasets.
+A hands-on repository documenting my Machine Learning foundation—progressing from raw data exploration and feature engineering to supervised model training and evaluation on real-world datasets.
 
-##  Practiced Modules & Projects
+##  Tech Stack
+**Python** | NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
-### 1. Linear Regression
-- **California House Price Prediction:** End-to-end regression pipeline involving feature scaling, multi-collinearity checks, and evaluating baseline performance using RMSE and R2_score.
+
+## Practiced Modules & Projects
+
+### 01. Exploratory Data Analysis & Feature Engineering
+- **Wine Quality Analysis:** In-depth statistical analysis, correlation heatmaps, outlier detection, and distribution transforms.
+- **Flight Price Analysis:** Feature extraction from datetime fields, categorical encoding for routes/airlines, and data formatting for regression.
+- **Google Play Store Datasets:** Data cleaning, type conversions, missing value imputation, and trend visualizations.
+
+### 02. Linear Regression
+- **California House Price Prediction:** End-to-end regression pipeline involving feature scaling, multicollinearity checks, and performance evaluation using RMSE and $R^2$ score.
 - **Algerian Forest Fire:** Feature selection and regression modeling to predict fire weather index and burnt areas based on meteorological observations.
 
-### 2. Logistic Regression & Imbalanced Data
-- **Telco Customer Churn:** Binary classification on customer retention data, addressing class imbalance, feature encoding, and optimizing Precision-Recall trade-offs.
-- **Logistic Regression Scratch/Implementation:** Direct application of decision boundaries and probability thresholds using Scikit-learn.
+### 03. Logistic Regression & Classification
+- **Telco Customer Churn:** Binary classification on customer retention data, handling class imbalance, categorical encoding, and evaluating Precision-Recall trade-offs.
+- **Logistic Regression Core Implementation:** Hands-on classification focusing on decision boundaries and probability thresholds using Scikit-learn.
 
-### 3. Decision Trees
+### 04. Decision Trees
 - **Iris Classification:** Multi-class classification focusing on tree pruning to prevent overfitting.
-- **Diabetes Prediction:** Regression implementation analyzing feature importances and tree decision splits.
+- **Diabetes Prediction:** Decision tree regression analyzing feature importances and split criteria.
 
-### 4. Ensemble Methods (Random Forest)
-- **Holiday Package Prediction:** Addressing customer purchase prediction with ensemble learning, hyperparameter tuning, and handling mixed data types.
+### 05. Random Forest
+- **Holiday Package / Travel Agency Prediction:** Customer purchase prediction using ensemble classification, hyperparameter tuning, and mixed-type preprocessing.
 - **Used Car Price Prediction:** Tree-based regression model with categorical encoding, missing value imputation, and evaluation via MAE/RMSE.
 
-
-## Repository Structure
-
-Ml_journey/
-│
-├── 01_Linear_Regression/
-│   ├── Algerian_Forest_Fire.ipynb
-│   └── California_Housing.ipynb
-│
-├── 02_Logistic_Regression/
-│   └── Telco_Customer_Churn.ipynb
-│
-├── 03_Decision_Trees/
-│   ├── Iris_Classification.ipynb
-│   └── Diabetes_Analysis.ipynb
-│
-├── 04_Random_Forest/
-│   ├── Holiday_Package_Prediction.ipynb
-│   └── Used_Car_Price_Prediction.ipynb
-│
-└── README.md
